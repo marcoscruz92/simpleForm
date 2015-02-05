@@ -1,0 +1,106 @@
+	#wrapper{
+		margin: 0 auto;
+		margin-top: 5%;
+		padding: 2%;
+		width: 55%;
+		height: auto;
+		font-family: helvetica;
+		font-size: 1.2em;
+		background-color: #34495e;
+		box-shadow: 3px 7px #2c3e50;
+		border-radius: 10px;
+		color: white;
+
+	}
+	#wrapper h1{
+		text-align: center;
+	}
+	form{
+		margin-left: 13%;
+	}
+	input{
+		width: 55%;
+		height: 30px;
+		padding: 7px;
+		border-radius: 5px;
+		font-size: 1.2em;
+		border: 1px solid grey;
+		margin-bottom: 10px;
+	}
+	label{
+		width: 25%;
+		float: left;
+		padding-top: 1%;
+	}
+	#submit_button{
+		height: 50px;
+		width: 20%;
+		margin-left: 25%;
+		border: 0;
+		color: #fff;
+		background-color: #3498db;
+		box-shadow: 0 5px #2980b9;
+
+	}
+	#error{
+		color: #e74c3c;
+		font-size: 0.8em;
+	}
+/*  *************************************
+            Media Queries 
+	*************************************
+ */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+	#wrapper{
+		margin: 0 auto;
+		margin-top: 5%;
+		padding: 2%;
+		width: 80%;
+		height: auto;
+		font-family: helvetica;
+		font-size: 0.9em;
+		background-color: #34495e;
+		box-shadow: 3px 7px #2c3e50;
+		border-radius: 10px;
+		color: white;
+
+	}
+	#wrapper h1{
+		text-align: center;
+		font-size: 1.2em;
+	}
+	form{
+		margin-left: 13%;
+	}
+	input{
+		width: 55%;
+		height: 20px;
+		padding: 5px;
+		margin-left: 10%;
+		border-radius: 5px;
+		font-size: 1em;
+		border: 1px solid grey;
+		margin-bottom: 10px;
+	}
+	label{
+		width: 25%;
+		float: left;
+		padding-top: 1%;
+	}
+	#submit_button{
+		height: 30px;
+		width: 30%;
+		margin-left: 35%;
+		border: 0;
+		color: #fff;
+		background-color: #3498db;
+		box-shadow: 0 5px #2980b9;
+
+	}
+	#error{
+		color: #e74c3c;
+		font-size: 0.8em;
+	}
+}
